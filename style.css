@@ -1,114 +1,111 @@
-Body{
-  font-family:'Segoe UI',Tahoma,Verdana,Sans-Serif;
+body{
+    font-family: Arial, sans-serif;
+    background:#eee;
 }
-main{
-  box-shadow: 10px 0px 40px rgb(160,160,160),-10px 0px 40px rgb(160,160,160);
-  margin:auto;
-  max-width: 188px;
+
+.cv-container{
+    width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
 }
-.srkl{
-  display: flex;
-  justify-content:space-between;
-  margin-top: 25px;
-  background-color:#fff;
-  width: 100%;
+
+/* HEADER */
+
+.header{
+    display:flex;
+    align-items:center;
+    border-bottom:2px solid #ddd;
+    padding-bottom:20px;
 }
-hearder{
-  margin-left: 10%;
-  height: 100px;
-  padding-top: 100px;
-  color: white
+
+.profile-img{
+    width:90px;
+    height:140px;
+    border-radius:50%;
+    margin-right:25px;
 }
-.photo{
-  margin-right: 7%;
-  border-radius:50% ;
-  width: 100px;
-  height:100px;
-  overflow: hidden;
+
+.header-text h1{
+    margin:0;
+    font-size:36px;
 }
-.des{
-  margin-right: 25%;
-  margin-top: 10%;
+
+.header-text span{
+    color:#2c9fb3;
 }
-h3{
-  color: #13c3ba;
-  font-weight: bold;
-  letter-spacing: -1rem;
-  font-size: 20px;
+
+.job{
+    color:#777;
+    margin-bottom:10px;
 }
-.post{
-  color: orange;
-  font-weight: bold;
-  letter-spacing: .1ren;
+
+.contact{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px;
+    font-size:14px;
 }
+
+/* MAIN LAYOUT */
+
+.main{
+    display:flex;
+    margin-top:20px;
+}
+
+.left{
+    width:35%;
+    padding-right:20px;
+}
+
 .right{
-  margin: 5px;
-  padding: 0;
-  margin-top: -10%;
+    width:65%;
 }
-.right p{
-  margin-left: 600px;
-  letter-spacing:.1rem;
+
+/* BOXES */
+
+.box{
+    background:#f6f6f6;
+    padding:15px;
+    margin-bottom:20px;
+    border-radius:10px;
 }
-.info{
-  width: 20px;
-  height: 20px;
+
+.box h3{
+    background:#3e8ca6;
+    color:white;
+    padding:8px;
+    border-radius:20px;
+    font-size:14px;
+    text-align:center;
 }
-.section-left{
-  background-color: #fff;
-  float: right;
-  width: 400%;
+      
+.box h4{
+     background:#3e8ca6;
+    color:white;
+    padding:8px;
+    border-radius:20px;
+    font-size:14px;
+    text-align:center;
 }
-.section-right{
-  background-color: #fff;
-  float: right;
-  width: 400%;
+
+/* SKILL BARS */
+
+.bar{
+    height:8px;
+    background:#ddd;
+    border-radius:5px;
+    margin-bottom:10px;
 }
-h4{
-  margin-left: 10%;
-  color: 13c3ba;
-  letter-spacing: .1rem;
-  font-size: 18px;
+
+.level{
+    height:8px;
+    background:#2c9fb3;
+    border-radius:5px;
 }
-hr.light{
-  border-top:2px solid #13c3ba;
-  width: 90%;
-  margin-top: .8ren;
-  margin-bottom: 1rem;
-}
-.atouts{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 10%;
-}
-.div{
-  margin-left: 10%;
-}
-.skls{
-  padding: 0;
-  width: 40%;
-  margin-right: 10%;
-}
-.cool{
-  background-color: #fff;
-  border:2px solid #ccc;
-  width: 300px;
-  height: 7px;
-}
-.po{
-  margin-top: 20px;
-}
-strong{
-  color: #13c3ba;
-  text-decoration: none;
-}
-.inner{
-  height: 100%;
-  background-color: orange;
-}
-.interet{
-  margin-left: 10%;
-}
-span{
-  margin-left: 10%;
-}
+
+.p90{width:90%;}
+.p80{width:80%;}
+.p70{width:70%;}
